@@ -10,7 +10,7 @@ function NavBar({ activeTabIndex, setActiveTabIndex }) {
     <div className="grid grid-cols-3 gap-4 items-center justify-items-start w-full">
       {/* <h2 className="ml-4 text-align ">{labelName[Number(activeTabIndex)]} </h2> */}
       <GradualSpacing
-        className="font-display text-left text-2xl font-bold ml-4 tracking-[-0.1em]  text-black dark:text-white"
+        className="font-display text-left text-lg md:text-2xl font-bold ml-4 tracking-[-0.1em]  text-black dark:text-white"
         text={labelName[Number(activeTabIndex)]}
       />
       <div className="justify-self-center">

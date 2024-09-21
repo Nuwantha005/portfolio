@@ -9,7 +9,7 @@ const ProjectCard = ({ image, name, description, tags }) => {
           <img
             src={image}
             alt={name}
-            className="w-full object-cover rounded-lg bg-gray-200 p-4 shadow-md"
+            className="w-full object-cover rounded-lg dark:bg-gray-800/50 bg-gray-200/50  p-2 shadow-md"
           />
           <h3 className="text-lg font-semibold mt-4">{name}</h3>
           <p className="dark:text-gray-100 text-gray-800 mt-2 text-center">

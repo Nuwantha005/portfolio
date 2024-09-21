@@ -10,7 +10,7 @@ function About() {
       <FloatingSection>
         <img
           src="./Images/Profile.jpg"
-          className="rounded-full max-h-72 justify-self-center"
+          className="rounded-full aspect-square max-w-72 justify-self-center"
         />
       </FloatingSection>
       <div className="justify-self-stretch grow">

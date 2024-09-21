@@ -36,13 +36,13 @@ const ThemeToggle = () => {
       <button
         onClick={toggleTheme}
         type="button"
-        className="p-2 rounded-full text-gray-800 hover:bg-gray-200 focus:outline-none dark:text-neutral-200 dark:hover:bg-neutral-800"
+        className="p-2 mr-4 rounded-full border-2 text-gray-800 hover:bg-gray-200 focus:outline-none dark:text-neutral-200 dark:hover:bg-neutral-800"
       >
         {isDarkMode ? (
           // Moon icon for dark mode
           <span className="group inline-flex justify-center items-center size-9">
             <svg
-              className="shrink-0 size-4"
+              className="shrink-0 size-5"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -60,7 +60,7 @@ const ThemeToggle = () => {
           // Sun icon for light mode
           <span className="group inline-flex justify-center items-center size-9">
             <svg
-              className="shrink-0 size-4"
+              className="shrink-0 size-5"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"

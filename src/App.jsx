@@ -68,11 +68,11 @@ function App() {
         </header>
         <FlickeringGrid
           className="flex z-0 absolute inset-0 size-full h-fit"
-          squareSize={30}
-          gridGap={3}
+          squareSize={5}
+          gridGap={5}
           color="#6B72ff"
-          maxOpacity={0.2}
-          flickerChance={0.1}
+          maxOpacity={0.5}
+          flickerChance={0.5}
           width={windowWidth}
           height={windowHeight}
         />
