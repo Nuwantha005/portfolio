@@ -3,6 +3,38 @@ import React, { useEffect, useRef } from "react";
 const ProgrammingLanguages = () => {
   const logosRef = useRef(null);
 
+  const imageArray = [
+    { src: "./Images/svgIcons/icons8-c.svg", alt: "C++" },
+    { src: "./Images/svgIcons/java-svgrepo-com.svg", alt: "Java" },
+    { src: "./Images/svgIcons/matlab-svgrepo-com.svg", alt: "MATLAB" },
+    { src: "./Images/svgIcons/icons8-solidworks-240.svg", alt: "SolidWorks" },
+    { src: "./Images/svgIcons/icons8-autocad.svg", alt: "AutoCAD" },
+    { src: "./Images/svgIcons/ANSS.D.svg", alt: "AnSYS" },
+    { src: "./Images/svgIcons/python-svgrepo-com.svg", alt: "Python" },
+    { src: "./Images/svgIcons/mysql-logo-svgrepo-com.svg", alt: "MySQL" },
+    {
+      src: "./Images/svgIcons/react-javascript-js-framework-facebook-svgrepo-com.svg",
+      alt: "React",
+    },
+    { src: "./Images/svgIcons/arduino-svgrepo-com.svg", alt: "Arduino" },
+    {
+      src: "./Images/svgIcons/icons8-constructeur-de-scène.svg",
+      alt: "SceneBuilder",
+    },
+    { src: "./Images/svgIcons/javascript-svgrepo-com.svg", alt: "JavaScript" },
+    { src: "./Images/svgIcons/devicon--css3-wordmark.svg", alt: "CSS" },
+    { src: "./Images/svgIcons/devicon--html5.svg", alt: "HTML5" },
+    {
+      src: "./Images/svgIcons/skill-icons--processing-light.svg",
+      alt: "Processing",
+    },
+    { src: "./Images/svgIcons/logos--jupyter.svg", alt: "P5js" },
+    { src: "./Images/svgIcons/logos--numpy.svg", alt: "P5js" },
+    { src: "./Images/svgIcons/devicon--matplotlib.svg", alt: "P5js" },
+    { src: "./Images/svgIcons/devicon--opencv.svg", alt: "P5js" },
+    // Add more objects as needed
+  ];
+
   useEffect(() => {
     // Duplicate the list for infinite scrolling effect
     const ul = logosRef.current;
@@ -13,7 +45,7 @@ const ProgrammingLanguages = () => {
   }, []);
 
   return (
-    <main className="relative min-h-32 flex flex-col justify-center align-middle rounded-3xl bg-slate-400 dark:bg-slate-900 overflow-hidden">
+    <main className="relative min-h-32 flex flex-col justify-center align-middle rounded-3xl bg-slate-700/80 dark:bg-slate-900/80 overflow-hidden">
       <div className="w-full max-w-5xl mx-auto overflow-hidden align-slef-middle">
         <div className="text-center">
           {/* Logo Carousel animation */}
@@ -22,94 +54,11 @@ const ProgrammingLanguages = () => {
               ref={logosRef}
               className="animate-marquee-infinite flex items-center align-middle justify-center md:justify-start [&_li]:mx-2 [&_img]:max-w-none animate-infinite-scroll"
             >
-              <li>
-                <img
-                  width={64}
-                  height={64}
-                  src={`./src/Images/icons8-c.svg`}
-                  alt="C++"
-                />
-              </li>
-              <li>
-                <img
-                  width={64}
-                  height={64}
-                  src={`./src/Images/java-svgrepo-com.svg`}
-                  alt="Java"
-                />
-              </li>
-              <li>
-                <img
-                  width={64}
-                  height={64}
-                  src={`./src/Images/javascript-svgrepo-com.svg`}
-                  alt="JavaScript"
-                />
-              </li>
-              <li>
-                <img
-                  width={64}
-                  height={64}
-                  src={`./src/Images/matlab-svgrepo-com.svg`}
-                  alt="MATLAB"
-                />
-              </li>
-              <li>
-                <img
-                  width={64}
-                  height={64}
-                  src={`./src/Images/mysql-logo-svgrepo-com.svg`}
-                  alt="MySQL"
-                />
-              </li>
-              <li>
-                <img
-                  width={64}
-                  height={64}
-                  src={`./src/Images/python-svgrepo-com.svg`}
-                  alt="Python"
-                />
-              </li>
-              <li>
-                <img
-                  width={64}
-                  height={64}
-                  src={`./src/Images/react-javascript-js-framework-facebook-svgrepo-com.svg`}
-                  alt="React"
-                />
-              </li>
-              <li>
-                <img
-                  width={64}
-                  height={64}
-                  src={`./src/Images/arduino-svgrepo-com.svg`}
-                  alt="Arduino"
-                />
-              </li>
-              <li>
-                <img
-                  width={64}
-                  height={64}
-                  src={`./src/Images/icons8-solidworks-240.svg`}
-                  alt="SolidWorks"
-                />
-              </li>
-              <li>
-                <img
-                  width={64}
-                  height={64}
-                  src={`./src/Images/icons8-autocad.svg`}
-                  alt="AutoCAD"
-                />
-              </li>
-              <li>
-                <img
-                  width={64}
-                  height={64}
-                  src={`./src/Images/ANSS.D.svg`}
-                  alt="Ansys"
-                />
-              </li>
+              {imageArray.map((item, index) => (
+                <li key={index}>
+                  <img width={64} height={64} src={item.src} alt={item.alt} />
+                </li>
+              ))}
             </ul>
           </div>
           {/* End: Logo Carousel animation */}

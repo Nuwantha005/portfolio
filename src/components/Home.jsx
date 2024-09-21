@@ -5,7 +5,7 @@ import Skills from "./HomeSections/Skills";
 
 function Home() {
   return (
-    <div className="relative z-10 p-10 space-y-6 ">
+    <div className="relative z-10 p-10 space-y-6">
       <About />
       <Education />
       <Skills />

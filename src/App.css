@@ -53,3 +53,20 @@
     transform: translateX(0);
   }
 }
+
+.custom-grid .grid-item:nth-child(8n + 1),
+.custom-grid .grid-item:nth-child(8n + 3),
+.custom-grid .grid-item:nth-child(8n + 5),
+.custom-grid .grid-item:nth-child(8n + 6) {
+  grid-row: span 2;
+}
+
+body {
+  margin: 10px;
+  color: #374046;
+  background-color: #374046;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.15em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
