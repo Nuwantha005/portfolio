@@ -1,6 +1,6 @@
 import React from "react";
 import TimeLine from "./TimeLine";
-import FloatingSection from "../FloatingSection";
+import FloatingSection from "../ui/FloatingSection";
 
 function Education() {
   return (

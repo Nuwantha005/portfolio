@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { SlidingTabBar } from "./SlidingTabBar";
 import ThemeToggle from "./ThemeToggle";
-import GradualSpacing from "./magicui/gradual-spacing";
+import GradualSpacing from "../magicui/gradual-spacing";
 
 function NavBar({ activeTabIndex, setActiveTabIndex }) {
   const labelName = ["Home", "Projects"];

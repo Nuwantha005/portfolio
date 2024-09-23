@@ -2,7 +2,7 @@ import React from "react";
 import { MdLocationPin } from "react-icons/md";
 import { HiOutlineMail } from "react-icons/hi";
 import SocialDock from "./SocialDock";
-import FloatingSection from "../FloatingSection";
+import FloatingSection from "../ui/FloatingSection";
 
 function About() {
   return (

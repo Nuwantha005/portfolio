@@ -1,5 +1,5 @@
 import React from "react";
-import FloatingSection from "../FloatingSection";
+import FloatingSection from "../ui/FloatingSection";
 
 const ProjectCard = ({ image, name, description, tags }) => {
   return (
@@ -15,7 +15,7 @@ const ProjectCard = ({ image, name, description, tags }) => {
           <p className="dark:text-gray-100 text-gray-800 mt-2 text-center">
             {description}
           </p>
-          <div className="mt-4 space-x-2">
+          <div className="mt-4 flex-row justify-center space-x-2">
             {tags.map((tag, index) => (
               <span
                 key={index}

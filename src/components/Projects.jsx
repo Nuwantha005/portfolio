@@ -1,5 +1,4 @@
 import React from "react";
-import FloatingSection from "./FloatingSection";
 import ProjectsGrid from "./ProjectsSection/ProjectsGrid";
 
 function Projects() {
