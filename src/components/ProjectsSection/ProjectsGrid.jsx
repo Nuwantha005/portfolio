@@ -24,7 +24,7 @@ const ProjectsGrid = () => {
       description:
         "A commercial water dispensor was disassembled, materials were identified, measuremens were taken and modeled in SolidWorks. Furthermore possible manufacturing methods were popsed and solidworks fill  and pack simulation was done to check the feasability of injection moulding.",
       tags: ["CAD", "SolidWorks"],
-      link: "https://nuwantha005.github.io/Single_DOF_Vibration_Animation/",
+      link: "",
     },
     {
       image: "./Images/Projects/Single_DOF_MATLAB.png",
@@ -40,7 +40,7 @@ const ProjectsGrid = () => {
       description:
         "A system that can be used to store books in a bookshelf and retrieve them automatically. System is operated using Arduino and motor drivers and robot gripper is used for actuation. ",
       tags: ["CAD", "Arduino", "AutoCAD", "SolidWorks"],
-      link: "https://nuwantha005.github.io/Single_DOF_Vibration_Animation/",
+      link: "",
     },
     {
       image: "./Images/Projects/movies_and_tv_series_Software_Window.PNG",
@@ -48,7 +48,7 @@ const ProjectsGrid = () => {
       description:
         "A software application to store details of movies that is built using JavaFX that stores data on a MySQL database. UI was designed using Sceneebuilder, and styles were added using CSS.",
       tags: ["JavaFX", "MySQL", "CSS"],
-      link: "https://nuwantha005.github.io/Single_DOF_Vibration_Animation/",
+      link: "https://github.com/Nuwantha005/Movie_And_TV_Series_Software_Modern",
     },
     {
       image: "./Images/Projects/Fourier_Image_Example.png",
@@ -56,7 +56,7 @@ const ProjectsGrid = () => {
       description:
         "This program takes an input image, extracts it'scountours using OpenCV, and turns the countours to fourier sums using the DFT algorithm. Then they can be drawn using two sets of rotating circles that represent two fourier sums.",
       tags: ["Processing", "OpenCV", "Visualization"],
-      link: "https://nuwantha005.github.io/Single_DOF_Vibration_Animation/",
+      link: "https://github.com/Nuwantha005/turning_images_to_fourier_sums_and_drawing_them",
     },
     {
       image: "./Images/Projects/Complex_Mapping.png",
@@ -64,7 +64,7 @@ const ProjectsGrid = () => {
       description:
         "Several programs with different styles were created to animate transformations done by any complex functions. They were animated using Cartesian and Polar coordinate systems, and two methods, points and lines on the plane were used to visualize the transformation.",
       tags: ["Processing", "Visualization"],
-      link: "https://nuwantha005.github.io/Single_DOF_Vibration_Animation/",
+      link: "https://github.com/Nuwantha005/complex_mapping_in_cartesian_gird_using_lines",
     },
     {
       image: "./Images/Projects/TSP_Bruteforce_Genetic_Comparison.png",
@@ -72,7 +72,7 @@ const ProjectsGrid = () => {
       description:
         "The traveling salesman problem is a popular problem in computer science that deals with finding the shortest path for a given set of points. This program uses two methods: brute force and genetic algorithm to solve this problem, and the processes happening can be seen side by side. ",
       tags: ["Processing", "Visualization"],
-      link: "https://nuwantha005.github.io/Single_DOF_Vibration_Animation/",
+      link: "https://github.com/Nuwantha005/TSP_BruteForce_and_Genetic_Comparison",
     },
     {
       image: "./Images/Projects/Fourier_Names_React.png",
@@ -80,7 +80,7 @@ const ProjectsGrid = () => {
       description:
         "This program is an extension for another program by me that turns images into fourier sums and visualizes them. This program can convert a given string into an image, extract its counters, apply a discrete Fourier transform, and draw it using circles.",
       tags: ["Processing", "Visualization"],
-      link: "https://nuwantha005.github.io/Single_DOF_Vibration_Animation/",
+      link: "https://github.com/Nuwantha005/drawing_texts_using_fourier_series",
     },
 
     // Add more projects here

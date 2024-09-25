@@ -72,7 +72,7 @@ function Project_CommunicationSoftware() {
                   />
                 </div>
                 <p className="m-4 p-5 text-center lg:text-left">
-                  Database contains tables to contain data on sales, products,
+                  Database contains tables to store on sales, products,
                   services, suppliers, customers, and much more. Actions such as
                   selling, adding items to inventory, buying from suppliers, and
                   paying salaries to the staff can all be recorded in the
@@ -129,13 +129,64 @@ function Project_CommunicationSoftware() {
                   />
                 </div>
                 <p className="m-4 p-5 text-center lg:text-left">
-                  Database contains tables to contain data on sales, products,
-                  services, suppliers, customers, and much more. Actions such as
-                  selling, adding items to inventory, buying from suppliers, and
-                  paying salaries to the staff can all be recorded in the
-                  database. respective relations between respective tables are
-                  drawn for examples between sales and inventory (stock table).
-                  Furthermore, suitable data types are assigned to each column.
+                  For several tables, data can be exported to a report, and
+                  physical copies can be obtained through printing them. These
+                  reports are of two kinds: detailed reports and simple reports.
+                  <a
+                    className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                    href="https://github.com/TIBCOSoftware/jasperreports"
+                  >
+                    {" "}
+                    Jasper reports
+                  </a>{" "}
+                  was used to export these data and generate their reports
+                  through the library. Apart from reports, invoices can also be
+                  generated for customers and suppliers through the same
+                  techniques.
+                </p>
+              </div>
+            </FloatingSection>
+            <FloatingSection>
+              <div className="grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+                <div className="xl:col-span-2 2xl:col-span-3">
+                  <h1 className="text-2xl mb-4">Barcode and QR Generation</h1>
+                  <Image
+                    loc=".\Images\Projects\Communication_SOftware_BarCode_AndQR_Code.PNG"
+                    name="Generated Barcodes"
+                  />
+                </div>
+                <p className="m-4 p-5 text-center lg:text-left">
+                  If necessary, barcodes and QR codes for each product can be
+                  generated through the software itself without using external
+                  sources. The user will have to enter the text, which should be
+                  represented by a field and the number of barcode rows
+                  required. The same procedure is applied for QR codes, but they
+                  require width and height dimensions. These barcodes and QR
+                  codes can be attached to products, and they can be scanned by
+                  the cashier when sales occur.
+                </p>
+              </div>
+            </FloatingSection>
+            <FloatingSection>
+              <div className="grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+                <div className="xl:col-span-2 2xl:col-span-3">
+                  <h1 className="text-2xl mb-4">
+                    Data Viewing, Filtering and Ediditng
+                  </h1>
+                  <Image
+                    loc=".\Images\Projects\Communication_SOftware_Windows.PNG"
+                    name="Viewing Data"
+                  />
+                </div>
+                <p className="m-4 p-5 text-center lg:text-left">
+                  All types of data that were entered, such as sales, inventory,
+                  incomes, expenses, services, and standard attendance, can be
+                  viewed and edited. Apart from that, static data such as
+                  customer, supplier, or staff details can be viewed and edited
+                  as well. For more important data entries, such as sales, many
+                  methods of searching are available, such as using date, time,
+                  sales amount, and discount provided. Data can also be ascended
+                  or decended according to these column values.
                 </p>
               </div>
             </FloatingSection>

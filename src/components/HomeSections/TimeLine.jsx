@@ -22,9 +22,9 @@ function TimeLine() {
           <div className="timeline-start mb-10 md:text-end">
             <time className="font-mono italic">2007</time>
             <div className="text-lg font-black">Started Primary Education</div>
-            My Primary Education was carried out on Liyanwadaa Ananda Siri
-            Samarakon College.I studied there until grade 5 and Faced grade 5
-            Scholarship Examination.
+            My primary education was carried out at Liyanwadaa Ananda Samarakoon
+            College. I studied there until grade 5 and faced the grade 5
+            scholarship. Examination.
           </div>
 
           <hr className="bg-primary" />
@@ -50,8 +50,8 @@ function TimeLine() {
             <div className="text-lg font-black">
               Started Secondary Education
             </div>
-            After passing from grade 5 scholarship examination I entrolled in
-            Lumbini College Colombo 5. I studeied Five Years there and passed
+            After passing the grade 5 scholarship examination, I enrolled in
+            Lumbini College Colombo 5. I studied five years there and passed.
             out O/L examination with 8A grades and one C grade.
           </div>
           <hr className="bg-primary" />
@@ -77,11 +77,11 @@ function TimeLine() {
             <div className="text-lg font-black">
               Enrolled in JavaSE course at ATARI City Campus
             </div>
-            After completing my O/L examination, I got the change to enroll in a
-            course conducted by ATARI City Campus where I learned about
-            developing software solutions for general purpose data entry systems
-            using Java and MySQL server. I engaed in two course programmes that
-            are six month long.
+            After completing my O/L examination, I got the chance to enrol in a
+            course conducted by ATARI City Campus, where I learnt about
+            developing software solutions for general-purpose data entry systems
+            using Java and MySQL server. I engaged in two course programs that
+            are six months long.
           </div>
           <hr className="bg-primary" />
         </li>
@@ -106,9 +106,9 @@ function TimeLine() {
             <div className="text-lg font-black">
               Started Education in Thurstan College
             </div>
-            After G.C.E. O/L examination I entered Thurstan Colleged - Colombo 7
-            for my A/L education. I studied there for roughly 2 years and passed
-            G.C.E A/L Examination with 3 A grades.
+            After the G.C.E. O/L examination, I entered Thurstan College,
+            Colombo 7. for my A/L education. I studied there for roughly 2 years
+            and passed G.C.E. A/L. Examination with 3 A grades.
           </div>
           <hr className="bg-primary" />
         </li>
@@ -133,9 +133,9 @@ function TimeLine() {
             <div className="text-lg font-black">
               Enrolled University of Moratuwa
             </div>
-            After G.C.E. A/L Examination I attened Bsc. Engineering Degree in
-            University of Moratuwa. After the First semester I was selected to
-            Department of Mechanical Engineering to study mechanical
+            After the G.C.E. A/L Examination, I attained a B.Sc. Engineering
+            Degree in University of Moratuwa. After the first semester, I was
+            selected to Department of Mechanical Engineering to study mechanical
             engineering.
           </div>
           <hr />
