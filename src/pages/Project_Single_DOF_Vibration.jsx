@@ -4,7 +4,6 @@ import Topic from "@/components/ui/Topic";
 import React from "react";
 import { Helmet } from "react-helmet";
 import { BlockMath, InlineMath } from "react-katex";
-import "katex/dist/katex.min.css";
 
 function Project_Single_DOF_Vibration() {
   const tex = `f(x) = \\int_{-\\infty}^\\infty\\hat f(\\xi)\\,e^{2 \\pi i \\xi x}\\,d\\xi`;
