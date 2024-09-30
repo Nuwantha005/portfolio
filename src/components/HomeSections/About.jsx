@@ -31,16 +31,21 @@ function About() {
           </section>
           <SocialDock className=" flex flex-row gap-2 content-center align-center justify-start" />
           <div className="mt-4 flex flex-row justify-end">
-            <button class="dark:bg-gray-300 bg-slate-800 dark:hover:bg-gray-400 hover:bg-slate-600 dark:text-gray-800 text-slate-50 font-bold py-2 px-4 rounded inline-flex items-center">
-              <svg
-                class="fill-current w-4 h-4 mr-2"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-              >
-                <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
-              </svg>
-              <span>Download CV</span>
-            </button>
+            <a
+              href="/resume.pdf" // Path to the resume file in the public folder
+              download="Nuwantha Kumara CV.pdf" // The name of the file when downloaded
+            >
+              <button class="dark:bg-gray-300 bg-slate-800 dark:hover:bg-gray-400 hover:bg-slate-600 dark:text-gray-800 text-slate-50 font-bold py-2 px-4 rounded inline-flex items-center">
+                <svg
+                  class="fill-current w-4 h-4 mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+                </svg>
+                <span>Download CV</span>
+              </button>
+            </a>
           </div>
         </FloatingSection>
       </div>

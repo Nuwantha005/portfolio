@@ -32,7 +32,7 @@ const ProjectsGrid = () => {
       description:
         "Behaviour of a damped mass under different conditions were simulated in MATLAB. Later an interactive web application was built using p5js and react that allows real time adjustments to the system.",
       tags: ["MATLAB", "P5js", "React", "CSS", "Live Demo", "Visualization"],
-      link: "https://nuwantha005.github.io/Single_DOF_Vibration_Animation/",
+      link: "/single_DOF_Vibration_Simulation",
     },
     {
       image: "./Images/Projects/Mechatronics_Project_Thumbnail.png",
