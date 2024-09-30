@@ -6,8 +6,6 @@ import { Helmet } from "react-helmet";
 import { BlockMath, InlineMath } from "react-katex";
 
 function Project_Single_DOF_Vibration() {
-  const tex = `f(x) = \\int_{-\\infty}^\\infty\\hat f(\\xi)\\,e^{2 \\pi i \\xi x}\\,d\\xi`;
-
   return (
     <div>
       <Helmet>
