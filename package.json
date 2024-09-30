@@ -23,7 +23,9 @@
     "react-sizeme": "^3.0.2",
     "react-stack-grid": "^0.7.1",
     "tailwind-merge": "^2.5.2",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "react-katex": "^3.0.1",
+    "katex": "^0.15.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
