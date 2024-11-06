@@ -204,26 +204,54 @@ function Project_Single_DOF_Vibration() {
                 </div>
               </div>
             </FloatingSection>
-            <Topic topicName="Interactive Webpage"></Topic>
-            {/* <FloatingSection>
-              <div className="grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
-                <div className="xl:col-span-2 2xl:col-span-3">
-                  <h1 className="text-2xl mb-4">
-                    Effects of changing parameters can be observed
-                  </h1>
-                  <video
-                    src=".\Images\videos\Single_DOF_Over_Damped.mp4"
-                    poster=".\Images\videos\Single_DOF_Over_Damped.png"
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    className="w-full h-auto rounded-lg border-4"
-                  />
+            <section className="bg-slate-400/50 max-h-20 shadow-lg rounded-lg p-6 hover:shadow-2xl transition duration-300 border-2 border-gray-800 dark:border-gray-200">
+              <div className="flex flex-row justify-between">
+                <h1 className="font-bold text-2xl"> Interactive Webpage </h1>
+                <div className="flex justify-right gap-4">
+                  <a
+                    href="https://github.com/nuwantha005/Single_DOF_Vibration_Animation"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center bg-gray-800 text-white font-bold py-2 px-4 rounded hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-500"
+                  >
+                    <svg
+                      className="w-6 h-6 mr-2"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.71-2.78.61-3.37-1.34-3.37-1.34-.45-1.15-1.1-1.46-1.1-1.46-.9-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0112 6.8c.85.004 1.71.11 2.51.32 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.85-2.34 4.7-4.57 4.95.36.31.68.92.68 1.85 0 1.34-.01 2.42-.01 2.75 0 .27.18.58.69.48A10.01 10.01 0 0022 12c0-5.52-4.48-10-10-10z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                    GitHub Repo
+                  </a>
+                  <div className="flex gap-4">
+                    <a
+                      href="https://nuwantha005.github.io/Single_DOF_Vibration_Animation/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-500"
+                    >
+                      Live Demo
+                    </a>
+                  </div>
                 </div>
-                <p className="m-4 p-5 text-center lg:text-left"></p>
               </div>
-            </FloatingSection> */}
+            </section>
+            <FloatingSection>
+              <div className="flex-auto">
+                <iframe
+                  src="https://nuwantha005.github.io/Single_DOF_Vibration_Animation/"
+                  title="Single DOF Vibration Animation"
+                  className="w-full h-full rounded-lg border-4 min-h-screen"
+                  // style={{ transform: "scale(0.8)", transformOrigin: "0 0" }}
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </FloatingSection>
           </div>
         </main>
       </div>

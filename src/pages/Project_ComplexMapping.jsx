@@ -3,10 +3,20 @@ import FloatingSection from "@/components/ui/FloatingSection";
 import ThemeToggle from "@/components/ui/ThemeToggle";
 import Topic from "@/components/ui/Topic";
 import { Helmet } from "react-helmet";
-import { BlockMath, InlineMath } from "react-katex";
 
 function Project_ComplexMapping() {
-  return <div>Project_ComplexMapping</div>;
+  return (
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "100vh",
+      }}
+    >
+      <h1 style={{ color: "blue" }}>Project_ComplexMapping</h1>
+    </div>
+  );
 }
 
 export default Project_ComplexMapping;
