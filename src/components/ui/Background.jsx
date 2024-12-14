@@ -29,7 +29,7 @@ function Background() {
         squareSize={5}
         gridGap={5}
         color="#6B72ff"
-        maxOpacity={0.5}
+        maxOpacity={0.2}
         flickerChance={0.5}
         width={windowWidth}
         height={windowHeight}

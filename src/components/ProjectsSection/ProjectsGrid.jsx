@@ -64,7 +64,7 @@ const ProjectsGrid = () => {
       description:
         "Several programs with different styles were created to animate transformations done by any complex functions. They were animated using Cartesian and Polar coordinate systems, and two methods, points and lines on the plane were used to visualize the transformation.",
       tags: ["Processing", "Visualization"],
-      link: "https://github.com/Nuwantha005/complex_mapping_in_cartesian_gird_using_lines",
+      link: "/complex_mapping",
     },
     {
       image: "./Images/Projects/TSP_Bruteforce_Genetic_Comparison.png",

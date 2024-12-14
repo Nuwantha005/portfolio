@@ -5,6 +5,7 @@ import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Background from "./components/ui/Background";
 import Project_CommunicationSoftware from "./pages/Project_CommunicationSoftware";
 import Project_Single_DOF_Vibration from "./pages/Project_Single_DOF_Vibration";
+import Project_ComplexMapping from "./pages/Project_ComplexMapping";
 import "@/index.css";
 
 function App() {
@@ -13,6 +14,10 @@ function App() {
       <Routes>
         <Route element={<Background />}>
           <Route index element={<LandingPage />} />
+          <Route
+            path="/complex_mapping"
+            element={<Project_ComplexMapping />}
+          ></Route>
           <Route
             path="/communication_software"
             element={<Project_CommunicationSoftware />}
