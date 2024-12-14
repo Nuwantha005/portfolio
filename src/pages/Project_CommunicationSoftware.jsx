@@ -36,7 +36,7 @@ function Project_CommunicationSoftware() {
                     name="Landing Menu"
                     className="basis-1/2"
                   />
-                  <p className="p-4 m-4 text-center">
+                  <p className="p-4 m-4 text-center lg:text-left lg:basis-1/2">
                     This program was created as the final project for my course
                     at the ATARI city campus. It was a group project; however,
                     it was done all by myself as a test for my own skills.
@@ -51,7 +51,7 @@ function Project_CommunicationSoftware() {
               </div>
               <div className="basis-1/4 justify-center">
                 <FloatingSection className="col-span-4">
-                  <h1 className="text-2xl mb-4">Project Structue</h1>
+                  <h1 className="text-2xl mb-4">Project Structure</h1>
                   <div className="flex flex-col gap-8 justify-center">
                     <Image
                       loc="./Images/Projects/Communication_SOftware_ProjectTree.PNG"
@@ -63,15 +63,15 @@ function Project_CommunicationSoftware() {
               </div>
             </div>
             <FloatingSection>
-              <div className="grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
-                <div className="xl:col-span-2 2xl:col-span-3">
+              <div className="grid lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
+                <div className="xl:col-span-1 2xl:col-span-1">
                   <h1 className="text-2xl mb-4">Database Structure</h1>
                   <Image
                     loc=".\Images\Projects\CommunicationEER.PNG"
                     name="EER Diagram"
                   />
                 </div>
-                <p className="m-4 p-5 text-center lg:text-left">
+                <p className="m-4 p-5 text-center lg:text-left lg:basis-1/2">
                   Database contains tables to store on sales, products,
                   services, suppliers, customers, and much more. Actions such as
                   selling, adding items to inventory, buying from suppliers, and
@@ -84,15 +84,15 @@ function Project_CommunicationSoftware() {
             </FloatingSection>
             <Topic topicName="Features" />
             <FloatingSection>
-              <div className="grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
-                <div className="xl:col-span-2 2xl:col-span-3">
+              <div className="grid lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
+                <div className="xl:col-span-1 2xl:col-span-1">
                   <h1 className="text-2xl mb-4">Chart Generation</h1>
                   <Image
                     loc=".\Images\Projects\Communication_SOftware_Chart.PNG"
                     name="Chart Window"
                   />
                 </div>
-                <p className="m-4 p-5 text-center lg:text-left">
+                <p className="m-4 p-5 text-center lg:text-left lg:basis-1/2">
                   Charts section in the program can generate 2D and 3D charts
                   for different data such as sales, income, inventory, and
                   expenses. These charts can be in the form of line charts, bar
@@ -118,8 +118,8 @@ function Project_CommunicationSoftware() {
               </div>
             </FloatingSection>
             <FloatingSection>
-              <div className="grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
-                <div className="xl:col-span-2 2xl:col-span-3">
+              <div className="grid lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
+                <div className="xl:col-span-1 2xl:col-span-1">
                   <h1 className="text-2xl mb-4">
                     Printable Reports Generation
                   </h1>
@@ -128,7 +128,7 @@ function Project_CommunicationSoftware() {
                     name="Sales Chart"
                   />
                 </div>
-                <p className="m-4 p-5 text-center lg:text-left">
+                <p className="m-4 p-5 text-center lg:text-left lg:basis-1/2">
                   For several tables, data can be exported to a report, and
                   physical copies can be obtained through printing them. These
                   reports are of two kinds: detailed reports and simple reports.
@@ -147,15 +147,15 @@ function Project_CommunicationSoftware() {
               </div>
             </FloatingSection>
             <FloatingSection>
-              <div className="grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
-                <div className="xl:col-span-2 2xl:col-span-3">
+              <div className="grid lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
+                <div className="xl:col-span-1 2xl:col-span-1">
                   <h1 className="text-2xl mb-4">Barcode and QR Generation</h1>
                   <Image
                     loc=".\Images\Projects\Communication_SOftware_BarCode_AndQR_Code.PNG"
                     name="Generated Barcodes"
                   />
                 </div>
-                <p className="m-4 p-5 text-center lg:text-left">
+                <p className="m-4 p-5 text-center lg:text-left lg:basis-1/2">
                   If necessary, barcodes and QR codes for each product can be
                   generated through the software itself without using external
                   sources. The user will have to enter the text, which should be
@@ -168,17 +168,17 @@ function Project_CommunicationSoftware() {
               </div>
             </FloatingSection>
             <FloatingSection>
-              <div className="grid lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
-                <div className="xl:col-span-2 2xl:col-span-3">
+              <div className="grid lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
+                <div className="xl:col-span-1 2xl:col-span-1">
                   <h1 className="text-2xl mb-4">
-                    Data Viewing, Filtering and Ediditng
+                    Data Viewing, Filtering and Editing
                   </h1>
                   <Image
                     loc=".\Images\Projects\Communication_SOftware_Windows.PNG"
                     name="Viewing Data"
                   />
                 </div>
-                <p className="m-4 p-5 text-center lg:text-left">
+                <p className="m-4 p-5 text-center md:text-left md:basis-1/2">
                   All types of data that were entered, such as sales, inventory,
                   incomes, expenses, services, and standard attendance, can be
                   viewed and edited. Apart from that, static data such as
@@ -186,7 +186,7 @@ function Project_CommunicationSoftware() {
                   as well. For more important data entries, such as sales, many
                   methods of searching are available, such as using date, time,
                   sales amount, and discount provided. Data can also be ascended
-                  or decended according to these column values.
+                  or descended according to these column values.
                 </p>
               </div>
             </FloatingSection>
